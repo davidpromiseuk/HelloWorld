@@ -1,31 +1,31 @@
 # Docker
-# Build a Docker image 
+# Build a Docker image
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 trigger:
-    - master
-    
-    resources:
-    - repo: self
-    
-    variables:
-      tagBuild: '$(Build.BuildId)'
-    
-    stages:
-    - stage: Build
-      displayName: Build image
-      jobs:  
+  - master
+
+resources:
+  - repo: self
+
+variables:
+  tagBuild: "$(Build.BuildId)"
+
+stages:
+  - stage: Build
+    displayName: Build image
+    jobs:
       - job: Build
         displayName: Build
         pool:
-          vmImage: 'ubuntu-latest'
+          vmImage: "ubuntu-latest"
         steps:
-        - task: Docker@2
-          displayName: Build and push the image
-          inputs:
-            containerRegistry: 'Docker Hub'
-            repository: 'daveeeeeee/helloworld'
-            command: buildAndPush
-            dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
-            tags: |
-              $(tagBuild)
+          - task: Docker@2
+            displayName: Build and push the image
+            inputs:
+              containerRegistry: "Docker Hub"
+              repository: "YOUR_DOCKERHUBID/YOUR_DOCKERHUBREPONAME"
+              command: buildAndPush
+              dockerfile: "$(Build.SourcesDirectory)/Dockerfile"
+              tags: |
+                $(tagBuild)
