@@ -51,8 +51,6 @@ C:\Users\Dave\Programming\HelloWorld\app\obj\Debug\netcoreapp3.1\HelloWorld.cspr
 C:\Users\Dave\Programming\HelloWorld\app\obj\Debug\netcoreapp3.1\HelloWorld.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Dave\Programming\HelloWorld\app\obj\Debug\netcoreapp3.1\HelloWorld.RazorAssemblyInfo.cache
 C:\Users\Dave\Programming\HelloWorld\app\obj\Debug\netcoreapp3.1\HelloWorld.RazorAssemblyInfo.cs
-C:\Users\Dave\Programming\HelloWorld\app\obj\Debug\netcoreapp3.1\HelloWorld.AssemblyInfoInputs.cache
-C:\Users\Dave\Programming\HelloWorld\app\obj\Debug\netcoreapp3.1\HelloWorld.AssemblyInfo.cs
 C:\Users\Dave\Programming\HelloWorld\app\obj\Debug\netcoreapp3.1\HelloWorld.TagHelpers.input.cache
 C:\Users\Dave\Programming\HelloWorld\app\obj\Debug\netcoreapp3.1\HelloWorld.TagHelpers.output.cache
 C:\Users\Dave\Programming\HelloWorld\app\obj\Debug\netcoreapp3.1\HelloWorld.RazorCoreGenerate.cache
