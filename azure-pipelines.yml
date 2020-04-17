@@ -24,7 +24,7 @@ stages:
             displayName: Build and push the image
             inputs:
               containerRegistry: "Docker Hub"
-              repository: "YOUR_DOCKERHUBID/YOUR_DOCKERHUBREPONAME"
+              repository: "daveeeeeee/helloworld"
               command: buildAndPush
               dockerfile: "$(Build.SourcesDirectory)/Dockerfile"
               tags: |
